@@ -1,0 +1,167 @@
+<!-------------------------------------------------
+=                    Main HTML                    =
+-------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DGM 2780 BootStrap</title>
+    <meta charset="utf-8">
+    <!--this meta is for older browsers--><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+<!-------Stylesheet files------->      
+    <link rel="stylesheet" href="../DGM2780BootStrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <!--Font Awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+  </head>
+    
+    
+<!---------Content---------->
+  <body id="top">
+      
+<!---Navigation--->
+<header>
+   <nav class="navbar navbar-inverse" role="navigation" data-spy="affix" data-offset-top="400" >
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <div>
+                <button id="mobile-nav" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div>
+                <a  class="navbar-brand" id="navleftmargin" href="../index.html">Road</a>
+                <a class="navbar-left" href="../index.html"><img id="homeicon" src="../images/warriorlogo.jpg" alt="logo" class="img-responsive"/></a>
+                <a class="navbar-brand" href="../index.html">Warriors</a>
+            </div>
+        </div>
+          
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav" >
+                  <li><a href="bikes.html">Bikes</a></li>
+                  <li><a href="bikes.html">Parts</a></li>
+                  <li><a href="bikes.html">Gear</a></li>
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+                  <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  <li><a href="signup.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+</header> 
+
+<!--Main Content-->      
+<main style="margin-top:-75px;">
+<!--main image-->
+    <img id="mainimg" class="img-responsive" src="../images/mtnbikingmainimgotherpages.jpg" alt="mainimg" style=" margin: 0 auto; margin-top:-00px; "/>
+<!--Mobile main image-->
+    <img id="mainimgmobile" class="img-responsive" src="../images/mtnbikingmainimgotherpages.jpg" alt="mainimgchange"/> 
+<!--Form-->
+       <div class="container-fluid" >
+        <div id="signinform" class="row">
+            <div id="field1" class="input-group input-group-lg" >
+              <span class="input-group-addon" id="basic-addon"><span class="glyphicon glyphicon-user"></span></span>
+              <input type="text"  class="form-control" placeholder="User" aria-describedby="basic-addon1">
+            </div>
+            <div id="field2" class="input-group input-group-lg">
+              <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+              <input type="text"  class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary btn-md" style="margin-bottom:-10px">Submit</button>
+            </div>
+        </div>
+    </div>
+</main>
+<!--Footer-->   
+<footer id="footeritems" style="margin-top:-1px;">
+    <!--Featured links-->
+      <div class="container-fluid">
+        <div class="row">
+            <a href="#top" class="footerlinks"><p id="footerhead" class="col-md-3">Road Warriors</p></a>
+            
+                <div class="footerdownitems">
+                    <a href="http://www.youtube.com" class="footerlinks"><p class="col-md-2"> <span class="glyphicon glyphicon-film"></span> Pro Videos</p></a>
+                </div>
+                <div class="footerdownitems">
+                    <a href="http://www.instagram.com" class="footerlinks"><p class="col-md-2"> <span class="glyphicon glyphicon-camera"></span> Pro Photos</p></a>
+                </div>
+                <div class="footerdownitems">
+                    <a href="https://www.mtbproject.com/" class="footerlinks"><p class="col-md-2"> <span class="glyphicon glyphicon-road"></span> Trails</p></a>
+                </div>
+<br id="mobilecontent">
+            <!--Search bar-->
+            <div class=" col-md-3 pull-right">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                        <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search" style="color:black"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+        </div> 
+          <hr>
+             <!--Social Media Links-->
+          <br>
+            <div class="row">
+                <div style="font-size: 18px; margin-bottom: 10px;">Follow Us On Social Media</div>
+            </div>
+            <div class="row" >
+                <a href="http://www.instagram.com" class="footerlinks" style="margin: 10px;" class="btn btn-social-icon btn-instagram"><span class="fa fa-3x fa-instagram"></span></a>
+                <a class="footerlinks" style="margin: 10px;" class="btn btn-social-icon btn-youtube"><span class="fa fa-3x fa-youtube"></span></a>
+                <a class="footerlinks" style="margin: 10px;" class="btn btn-social-icon btn-vimeo"><span class="fa fa-3x fa-vimeo"></span></a>
+                <a href="www.twitter.com" class="footerlinks" style="margin: 10px;" class="btn btn-social-icon btn-twitter"><span class="fa fa-3x fa-twitter"></span></a>
+                <a class="footerlinks" style="margin: 10px;" class="btn btn-social-icon btn-facebook"><span class="fa fa-3x fa-facebook"></span></a>
+            </div>
+          <br>
+          <hr>
+          <!--Other Information--->
+            <div class="row">
+                <div class="col-md-3" style="font-size: 18px">Customer Support <br><span style="font-size:12px;">Product catalogs / Product archive / Manuals / Conformity & Transmission / Bike registration / Warranty / Newsletter / FAQ </span></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-3" style="font-size: 18px">Company<br><span style="font-size: 12px;">History / Contact / Distributors list / Careers / Legal / Privacy Policy / Safety and Recalls / Returns / Disclaimers</span></div>
+            </div>
+          <hr>
+        <div class="row">  
+            <div class="col-md-4"></div>
+            <p class="col-md-4">&copy; 2016. Road Warriors. All rights reserved.</p>
+            <div class="col-md-4"></div>
+        </div>
+      </div>
+</footer>
+
+      
+<!--JavaScript files-->
+    
+      <!--jQuery-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script></script>
+      <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+      <!--Bootstrap-->
+      <script src="../js/vendor/bootstrap.min.js"></script>
+      <!--Custom JS-->
+      <script src="../js/main.js"></script>
+    
+    
+      
+    
+  </body>
+</html>
+    
+    

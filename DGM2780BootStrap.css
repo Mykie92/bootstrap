@@ -1,0 +1,256 @@
+/*==================================================
+=                      Custom CSS                 =
+==================================================*/
+
+/* Large desktops and laptops */
+@media screen and (min-width: 1200px) {
+    #mainimg { display: block; }
+    #mainimgmobile { display: none; }
+    #desktopcontent { display: block; }
+    #mobilecontent { display: none;}
+    
+    #contentrow3{
+    padding-bottom: 0px;
+    }
+    #contentpulldown{
+        position: relative;
+        top: 90px;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #mainimg { display: block; }
+    #mainimgmobile { display: none; }
+    #desktopcontent { display: block; }
+    #mobilecontent { display: none;}
+    
+    #contentrow2{
+        padding-bottom: 60px;
+    }
+    #contentrow3{
+        padding-bottom: 0px;
+    }
+    #contentpulldown{
+        position: relative;
+        top: 30px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media screen and (min-width: 868px) and (max-width: 991px) {
+    #mainimg { display: block; }
+    #mainimgmobile { display: none; }
+    #desktopcontent { display: block; }
+    #mobilecontent { display: none;}
+    
+
+    
+    #contentrow3{
+    padding-bottom: 100px;
+    }
+    #contentpulldown{
+        position: relative;
+        top: 20px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media screen and (max-width: 867px) {
+    #mainimg { display: none; }
+    #mainimgmobile { display: block; }
+    #desktopcontent { display: none; }
+    #mobilecontent { display: block;}
+    /*navbar logo*/
+    .navbar-left {
+        float: left;
+        position: relative;
+        left: 47%;
+        top: -2px;
+    }
+    .navbar-brand{display:none;}
+    
+    
+}
+
+/* Portrait phones and smaller */
+@media screen and (max-width: 480px) {
+    #mainimg { display: none; }
+    #mainimgmobile { display: block; } 
+    #desktopcontent { display: none; }
+    #mobilecontent { display: block;}
+    /*navbar logo*/
+    .navbar-left {
+        float: left;
+        position: relative;
+        left: 47%;
+        top: -2px;
+    } 
+    .navbar-brand{display:none;}
+}
+
+
+
+/*------------Custom CSS-------------*/
+*{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif ; 
+    font-weight: normal;
+}
+
+
+/*Main*/
+body{
+    background-color: #222 !important;
+    margin: 0 auto !important;
+}
+/*navigation*/
+.navbar-left{
+    margin: 0 10px 0 -10px !important;
+    
+}
+
+.navbar-brand:hover{
+    color: #9D9D9D !important;
+} 
+
+li{
+    color:#9d9d9d;
+}
+
+li:hover{
+    background-color: #222;
+}
+#homeicon{
+    margin: 0 0 0 5px;
+}
+
+/*mobile nav*/
+#mobile-nav{
+    background-color: #9d9d9d;
+}
+
+.icon-bar{
+    background-color: #222 !important;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+
+/*Content*/
+.row{
+    background-color: #222;
+    text-align: center;
+    margin: 0 auto !important;
+    color: white;
+}
+
+#contentrow1{
+    padding-bottom: 100px;
+}
+#contentrow2, #contentrow2 div{
+    background-color: #333;
+    padding-bottom: 20px;
+}
+#contentrow3{
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+#contentpulldown{
+    
+    font-size: 16px;
+
+}
+
+button{
+    background-color: #555 ;
+    color: white !important;
+}
+
+
+/*Mobile content*/
+
+#mobilepara{
+    color: white !important;
+    text-align: center;
+    margin: 30px 0 50px 0;
+}
+
+#mobilerowlinks {
+    color: white !important;
+    font-size: 30px;
+}
+
+
+/*footer*/
+footer{
+    width: 100%;
+    margin-top: 30px;
+    background-color: #111 !important;
+    border: solid black 1px !important;
+}
+
+#footerhead{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.footerdownitems{
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+}
+
+.footerlinks{
+    color: white !important;
+}
+
+a:hover{
+   color: #1c77ba !important; 
+}
+
+
+
+hr{
+    border-top: 1px solid white !important;
+}
+
+#footeritems div{
+    background-color: #111;
+    
+}
+
+
+/*---------Separate pages----------*?
+
+/*Signin.html*/
+#signinform{
+    width:50%;
+    min-width: 60%;
+    position:absolute;
+    top: 20%;
+    left: 20%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#field1{
+    margin-bottom: 10px;
+}
+#field2{
+    margin-bottom: 10px;
+}
+
+
+
+
+
